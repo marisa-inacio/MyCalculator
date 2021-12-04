@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-image: url(../img/calculator.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+table {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 8%;
+    height: 15%;
+    border-spacing: 10px;
+    background-image: linear-gradient(135deg,rgb(212, 189, 126) 40%, rgb(255, 255, 253) 60%);
+    position: fixed;
+    top: 10%;
+    left: 45%;
+}
+
+.colorbuttons {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.numberbuttons {
+    font-weight: bold;
+    font-style: 'font-weight:bold';
+    font-size: 15px;
+    color: rgb(17, 17, 17);
+    border-color: darkgray;
+}
+
+
+.screen {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    background-color: lightgray;
+    column-span: all;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.screenSize {
+    width: 100px;
+    max-width: 100px;
+    overflow: hidden; 
+}
+
+
+.text {
+    color: white;
+    font-size: 30px;
+}
+
+i {
+    font-size: 18px;
+}
+
+
+
+.button {
+    background-color: white;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    color: white;
+    border-radius: 10%;
+    font-size: 16px;
+    position: fixed;
+    top: 15%;
+    right: 35%;
+
+}

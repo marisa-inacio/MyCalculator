@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- link JS -->
+    <script src="../JS/calculator.js"></script>
+
+    <!-- link CSS-->
+    <link href="../css/calculator.css" rel="stylesheet" />
+
+    <title>MyCalculator</title>
+
+</head>
+
+<body>
+
+    <div class="image"></div>
+
+    <table>
+
+        <tr>
+            <th colspan="4">
+                <div class="text"><i class="fas fa-calculator"></i> Calculator</div>
+            </th>
+        </tr>
+
+        <tr>
+            <div>
+                <td colspan="4" id="screen" class="screen screenSize"></td>
+            </div>
+
+        </tr>
+
+
+        <tr>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('(');">&lpar;</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert(')');">&rpar;</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="clearScreen();">C</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="deleteNumber();"><i
+                        class="fas fa-backspace"></i></button></td>
+        </tr>
+        <tr>
+
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('7');">7</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('8');">8</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('9');">9</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('/');">&divide;</button>
+            </td>
+        </tr>
+        <tr>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('4');">4</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('5');">5</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('6');">6</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('*');">&times;</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('1');">1</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('2');">2</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('3');">3</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('-');">&minus;</button>
+            </td>
+        </tr>
+        <tr>
+
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('.');">&comma;</button>
+            </td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('0');">0</button></td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="calc();">&equals;</button>
+            </td>
+            <td><button type="button" class="colorbuttons numberbuttons" onclick="insert('+');">&plus;</button></td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+
+</html>
